@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2c04366-f0d6-4feb-bae4-d869fa974eb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -29,6 +28,36 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.ArticleApplication">
+    <configuration name="ArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="article" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="mk.ukim.finki.emt.onlinemagazine.article.ArticleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="comment" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="mk.ukim.finki.emt.onlinemagazine.comment.CommentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReactionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="reaction" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="mk.ukim.finki.emt.onlinemagazine.reaction.ReactionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SharedKernelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shared-kernel" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="mk.ukim.finki.emt.onlinemagazine.sharedkernel.SharedKernelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -57,9 +86,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1258" y="369" key="new project wizard" timestamp="1612455402459">
+    <state x="-1258" y="369" key="new project wizard" timestamp="1612470211150">
       <screen x="-1280" y="170" width="1280" height="984" />
     </state>
-    <state x="-1258" y="369" key="new project wizard/0.0.1600.860/-1280.170.1280.984@-1280.170.1280.984" timestamp="1612455402459" />
+    <state x="-1258" y="369" key="new project wizard/0.0.1600.860/-1280.170.1280.984@-1280.170.1280.984" timestamp="1612470211150" />
   </component>
 </project>

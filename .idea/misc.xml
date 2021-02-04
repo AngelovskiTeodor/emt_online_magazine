@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/article/pom.xml" />
         <option value="$PROJECT_DIR$/comment/pom.xml" />
         <option value="$PROJECT_DIR$/reaction/pom.xml" />
+        <option value="$PROJECT_DIR$/shared-kernel/pom.xml" />
       </list>
     </option>
   </component>
