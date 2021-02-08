@@ -1,6 +1,7 @@
 package mk.ukim.finki.emt.onlinemagazine.sharedkernel.domain.image;
 
 import lombok.Getter;
+import mk.ukim.finki.emt.onlinemagazine.sharedkernel.domain.base.ValueObject;
 import org.springframework.lang.NonNull;
 
 import javax.persistence.Embeddable;
@@ -9,8 +10,7 @@ import java.util.Objects;
 
 @Getter
 @Embeddable
-public class Image {
-    //TODO: add value object inheritance
+public class Image implements ValueObject {
 
     private final Caption caption;
 

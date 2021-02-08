@@ -2,6 +2,7 @@ package mk.ukim.finki.emt.onlinemagazine.sharedkernel.domain.article;
 
 import lombok.Getter;
 import lombok.NonNull;
+import mk.ukim.finki.emt.onlinemagazine.sharedkernel.domain.base.ValueObject;
 import mk.ukim.finki.emt.onlinemagazine.sharedkernel.domain.image.Image;
 
 import javax.persistence.*;
@@ -9,8 +10,7 @@ import java.util.Objects;
 
 @Embeddable
 @Getter
-public class FeaturedImage {
-    // TODO: add value object inheritance
+public class FeaturedImage implements ValueObject {
 
     @Embedded
     @AttributeOverrides(

@@ -2,14 +2,14 @@ package mk.ukim.finki.emt.onlinemagazine.sharedkernel.domain.article;
 
 import lombok.Getter;
 import lombok.NonNull;
+import mk.ukim.finki.emt.onlinemagazine.sharedkernel.domain.base.ValueObject;
 
 import javax.persistence.Embeddable;
 import java.util.Objects;
 
 @Embeddable
 @Getter
-public class Title {
-    // TODO: add value object inheritance
+public class Title implements ValueObject {
 
     private final String title;
 

@@ -1,6 +1,7 @@
 package mk.ukim.finki.emt.onlinemagazine.sharedkernel.domain.image;
 
 import lombok.Getter;
+import mk.ukim.finki.emt.onlinemagazine.sharedkernel.domain.base.ValueObject;
 import org.springframework.lang.NonNull;
 
 import javax.persistence.Embeddable;
@@ -8,8 +9,7 @@ import java.util.Objects;
 
 @Embeddable
 @Getter
-public class Caption {
-    //TODO: add value object inheritance
+public class Caption implements ValueObject {
 
     private final String caption;
 
@@ -17,9 +17,7 @@ public class Caption {
         this.caption = caption;
     }
 
-    public Caption() {
-        this.caption = null;
-    }
+    public Caption() { this.caption = null; }
 
     public static Caption createCaption (@NonNull String caption) {
         return new Caption(caption);

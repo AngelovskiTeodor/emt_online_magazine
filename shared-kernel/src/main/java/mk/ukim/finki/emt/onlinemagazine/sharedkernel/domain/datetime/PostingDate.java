@@ -2,18 +2,19 @@ package mk.ukim.finki.emt.onlinemagazine.sharedkernel.domain.datetime;
 
 import lombok.Getter;
 import lombok.NonNull;
+import mk.ukim.finki.emt.onlinemagazine.sharedkernel.domain.base.ValueObject;
 
 import javax.persistence.Embeddable;
-import java.util.Date;
+import java.time.Instant;
 import java.util.Objects;
 
 @Embeddable
 @Getter
-public class PostingDate {
+public class PostingDate implements ValueObject {
 
-    private final Date postingDate;
+    private final Instant postingDate;
 
-    private PostingDate(@NonNull Date postingDate) {
+    private PostingDate(@NonNull Instant postingDate) {
         this.postingDate = postingDate;
     }
 
@@ -21,7 +22,7 @@ public class PostingDate {
         this.postingDate = null;
     }
 
-    public static PostingDate createPostingDate (@NonNull Date postingDate) {
+    public static PostingDate createPostingDate (@NonNull Instant postingDate) {
         return new PostingDate(postingDate);
     }
 
