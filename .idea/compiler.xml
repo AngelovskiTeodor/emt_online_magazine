@@ -9,8 +9,8 @@
         <module name="article" />
         <module name="comment" />
         <module name="shared-kernel" />
-        <module name="reaction" />
         <module name="onlinemagazine" />
+        <module name="reaction" />
       </profile>
     </annotationProcessing>
   </component>

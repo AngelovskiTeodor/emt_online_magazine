@@ -2,15 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2c04366-f0d6-4feb-bae4-d869fa974eb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/base/DomainObjectId.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/src/main/java/mk/ukim/finki/emt/onlinemagazine/article/domain/model/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/article/src/main/java/mk/ukim/finki/emt/onlinemagazine/article/domain/model/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/comment/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlinemagazine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/onlinemagazine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-kernel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/article/ArticleContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/article/ArticleContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/article/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/article/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/article/FeaturedImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/article/FeaturedImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/article/TextContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/article/TextContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/article/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/article/Title.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/datetime/PostingDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/datetime/PostingDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/image/Caption.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/image/Caption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/image/Credits.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/image/Credits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/image/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/image/Image.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,6 +48,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Spring Boot.ArticleApplication">
     <configuration name="ArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -82,13 +103,37 @@
       <option name="presentableId" value="Default" />
       <updated>1612448076100</updated>
       <workItem from="1612448083728" duration="3000" />
+      <workItem from="1612529013835" duration="18285000" />
+      <workItem from="1612618726971" duration="4211000" />
+      <workItem from="1612819145731" duration="4214000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="556" y="184" key="#com.intellij.ide.util.MemberChooser" timestamp="1612826683761">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="-835" y="380" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/-1280.170.1280.984@-1280.170.1280.984" timestamp="1612555736622" />
+    <state x="556" y="184" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/-1280.170.1280.984@0.0.1600.860" timestamp="1612826683761" />
+    <state x="303" y="75" key="SettingsEditor" timestamp="1612823451843">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="303" y="75" key="SettingsEditor/0.0.1600.860/-1280.170.1280.984@0.0.1600.860" timestamp="1612823451843" />
+    <state x="434" y="281" key="com.intellij.ide.util.TipDialog" timestamp="1612823419352">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="-933" y="489" key="com.intellij.ide.util.TipDialog/0.0.1600.860/-1280.170.1280.984@-1280.170.1280.984" timestamp="1612529053662" />
+    <state x="434" y="281" key="com.intellij.ide.util.TipDialog/0.0.1600.860/-1280.170.1280.984@0.0.1600.860" timestamp="1612823419352" />
     <state x="-1258" y="369" key="new project wizard" timestamp="1612470211150">
       <screen x="-1280" y="170" width="1280" height="984" />
     </state>
     <state x="-1258" y="369" key="new project wizard/0.0.1600.860/-1280.170.1280.984@-1280.170.1280.984" timestamp="1612470211150" />
+    <state x="-898" y="287" key="refactoring.ChangeSignatureDialog" timestamp="1612546306922">
+      <screen x="-1280" y="170" width="1280" height="984" />
+    </state>
+    <state x="-898" y="287" key="refactoring.ChangeSignatureDialog/0.0.1600.860/-1280.170.1280.984@-1280.170.1280.984" timestamp="1612546306922" />
   </component>
 </project>
