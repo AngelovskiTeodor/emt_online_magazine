@@ -14,6 +14,9 @@ public class DomainObjectId implements ValueObject {
 
     private String id;
 
+    //  Used by JPA
+    protected DomainObjectId() { this.id = null;}
+
     public DomainObjectId(String id) {
         this.id = id;
     }

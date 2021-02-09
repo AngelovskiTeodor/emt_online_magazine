@@ -1,5 +1,7 @@
 package mk.ukim.finki.emt.onlinemagazine.sharedkernel.domain.base;
 
+import lombok.Getter;
+
 import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
 import java.util.Objects;
@@ -11,10 +13,16 @@ public abstract class AbstractEntity<ID extends DomainObjectId> implements Ident
     private ID id;
 
     public AbstractEntity() {
+
     }
 
     public AbstractEntity(ID id) {
         this.id = id;
+    }
+
+    @Override
+    public ID id(){
+        return this.id;
     }
 
     @Override
