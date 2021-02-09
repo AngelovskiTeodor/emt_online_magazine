@@ -1,8 +1,8 @@
-package mk.ukim.finki.emt.onlinemagazine.article.domain.model;
+package mk.ukim.finki.emt.onlinemagazine.comment.domain.model;
 
 import lombok.Getter;
-import mk.ukim.finki.emt.onlinemagazine.sharedkernel.domain.article.ArticleContent;
 import mk.ukim.finki.emt.onlinemagazine.sharedkernel.domain.article.Author;
+import mk.ukim.finki.emt.onlinemagazine.sharedkernel.domain.article.TextContent;
 import mk.ukim.finki.emt.onlinemagazine.sharedkernel.domain.base.AbstractEntity;
 import mk.ukim.finki.emt.onlinemagazine.sharedkernel.domain.datetime.PostingDate;
 import mk.ukim.finki.emt.onlinemagazine.sharedkernel.domain.popularity.Popularity;
@@ -12,9 +12,9 @@ import javax.persistence.*;
 
 @Entity
 @Getter
-@Table(name="articles")
+@Table(name = "comments")
 @Where(clause = "deleted=false")
-public class Article extends AbstractEntity<ArticleId> {
+public class Comment extends AbstractEntity<CommentId> {
 
     @Version
     private Long version;
@@ -25,13 +25,12 @@ public class Article extends AbstractEntity<ArticleId> {
     private Author author;
 
     @Embedded
-    private PostingDate publishing_date;
+    private PostingDate commentDate;
 
     @Embedded
-    private ArticleContent content;
+    private TextContent textContent;
 
     @Embedded
     private Popularity popularity;
-
 
 }
