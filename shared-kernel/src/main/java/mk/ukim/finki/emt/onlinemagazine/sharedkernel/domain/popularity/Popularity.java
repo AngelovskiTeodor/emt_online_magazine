@@ -41,4 +41,7 @@ public class Popularity implements ValueObject {
                 '}';
     }
 
+    public Popularity addPopularity (Popularity popularity){
+        return new Popularity(this.popularityValue + popularity.popularityValue);
+    }
 }

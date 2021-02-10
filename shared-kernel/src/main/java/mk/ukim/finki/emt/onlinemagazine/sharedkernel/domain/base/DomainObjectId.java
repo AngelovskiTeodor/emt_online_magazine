@@ -31,4 +31,8 @@ public class DomainObjectId implements ValueObject {
             throw new RuntimeException("Could not create instance of " +idClass, ex);
         }
     }
+
+    public String getId() {
+        return id;
+    }
 }
