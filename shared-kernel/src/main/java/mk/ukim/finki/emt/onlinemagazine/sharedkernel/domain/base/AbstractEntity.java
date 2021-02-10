@@ -2,14 +2,14 @@ package mk.ukim.finki.emt.onlinemagazine.sharedkernel.domain.base;
 
 import lombok.Getter;
 
-import javax.persistence.Id;
+import javax.persistence.EmbeddedId;
 import javax.persistence.MappedSuperclass;
 import java.util.Objects;
 
 @MappedSuperclass
 public abstract class AbstractEntity<ID extends DomainObjectId> implements IdentifiableDomainObject<ID> {
 
-    @Id
+    @EmbeddedId
     private ID id;
 
     public AbstractEntity() {

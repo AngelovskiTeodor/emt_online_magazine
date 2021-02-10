@@ -16,9 +16,11 @@ public class ArticleReaction extends AbstractEntity<ArticleReactionId> {
     private ArticleId articleId;
 
     @Embedded
+    @AttributeOverride(name="author",column = @Column(name="reaction_id",nullable = false))
     private Author author;
 
     @Embedded
+    @AttributeOverride(name="id",column = @Column(name="reaction_id",nullable = false))
     private ReactionId reactionId;
 
     //  Used by JPA

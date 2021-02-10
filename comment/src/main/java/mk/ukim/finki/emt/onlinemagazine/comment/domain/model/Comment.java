@@ -22,6 +22,7 @@ public class Comment extends AbstractEntity<CommentId> {
     private boolean deleted = false;
 
     @Embedded
+    @AttributeOverride(name="id",column = @Column(name="article_id",nullable = false))
     private ArticleId articleId;
 
     @Embedded

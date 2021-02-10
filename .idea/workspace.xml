@@ -3,13 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c2c04366-f0d6-4feb-bae4-d869fa974eb9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article/src/main/java/mk/ukim/finki/emt/onlinemagazine/article/domain/model/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/article/src/main/java/mk/ukim/finki/emt/onlinemagazine/article/domain/model/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/article/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comment/src/main/java/mk/ukim/finki/emt/onlinemagazine/comment/domain/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/comment/src/main/java/mk/ukim/finki/emt/onlinemagazine/comment/domain/model/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reaction/src/main/java/mk/ukim/finki/emt/onlinemagazine/reaction/application/form/ArticleReactionForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/reaction/src/main/java/mk/ukim/finki/emt/onlinemagazine/reaction/application/form/ArticleReactionForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reaction/src/main/java/mk/ukim/finki/emt/onlinemagazine/reaction/application/form/ReactionForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/reaction/src/main/java/mk/ukim/finki/emt/onlinemagazine/reaction/application/form/ReactionForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reaction/src/main/java/mk/ukim/finki/emt/onlinemagazine/reaction/domain/model/Reaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/reaction/src/main/java/mk/ukim/finki/emt/onlinemagazine/reaction/domain/model/Reaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/base/DomainObjectId.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/base/DomainObjectId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/popularity/Popularity.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/popularity/Popularity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/comment/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reaction/src/main/java/mk/ukim/finki/emt/onlinemagazine/reaction/domain/model/ArticleReaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/reaction/src/main/java/mk/ukim/finki/emt/onlinemagazine/reaction/domain/model/ArticleReaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reaction/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/reaction/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/base/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared-kernel/src/main/java/mk/ukim/finki/emt/onlinemagazine/sharedkernel/domain/base/AbstractEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -56,7 +59,7 @@
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ArticleApplication">
+  <component name="RunManager" selected="Spring Boot.CommentApplication">
     <configuration name="ArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="article" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="mk.ukim.finki.emt.onlinemagazine.article.ArticleApplication" />
@@ -113,7 +116,7 @@
       <workItem from="1612618726971" duration="4211000" />
       <workItem from="1612819145731" duration="5062000" />
       <workItem from="1612871625073" duration="19650000" />
-      <workItem from="1612947340387" duration="4386000" />
+      <workItem from="1612947340387" duration="8592000" />
     </task>
     <servers />
   </component>
@@ -130,6 +133,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="551" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860/-1280.170.1280.984@0.0.1600.860" timestamp="1612912279587" />
+    <state width="1557" height="347" key="GridCell.Tab.0.bottom" timestamp="1612957664962">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="347" key="GridCell.Tab.0.bottom/0.0.1600.860/-1280.170.1280.984@0.0.1600.860" timestamp="1612957664962" />
+    <state width="1557" height="347" key="GridCell.Tab.0.center" timestamp="1612957664962">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="347" key="GridCell.Tab.0.center/0.0.1600.860/-1280.170.1280.984@0.0.1600.860" timestamp="1612957664962" />
+    <state width="1557" height="347" key="GridCell.Tab.0.left" timestamp="1612957664961">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="347" key="GridCell.Tab.0.left/0.0.1600.860/-1280.170.1280.984@0.0.1600.860" timestamp="1612957664961" />
+    <state width="1557" height="347" key="GridCell.Tab.0.right" timestamp="1612957664962">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="347" key="GridCell.Tab.0.right/0.0.1600.860/-1280.170.1280.984@0.0.1600.860" timestamp="1612957664962" />
+    <state width="1557" height="347" key="GridCell.Tab.1.bottom" timestamp="1612957664962">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="347" key="GridCell.Tab.1.bottom/0.0.1600.860/-1280.170.1280.984@0.0.1600.860" timestamp="1612957664962" />
+    <state width="1557" height="347" key="GridCell.Tab.1.center" timestamp="1612957664962">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="347" key="GridCell.Tab.1.center/0.0.1600.860/-1280.170.1280.984@0.0.1600.860" timestamp="1612957664962" />
+    <state width="1557" height="347" key="GridCell.Tab.1.left" timestamp="1612957664962">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="347" key="GridCell.Tab.1.left/0.0.1600.860/-1280.170.1280.984@0.0.1600.860" timestamp="1612957664962" />
+    <state width="1557" height="347" key="GridCell.Tab.1.right" timestamp="1612957664962">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="347" key="GridCell.Tab.1.right/0.0.1600.860/-1280.170.1280.984@0.0.1600.860" timestamp="1612957664962" />
     <state x="303" y="75" key="SettingsEditor" timestamp="1612947520834">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
