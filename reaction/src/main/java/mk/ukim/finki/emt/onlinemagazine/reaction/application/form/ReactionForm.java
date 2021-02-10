@@ -23,4 +23,12 @@ public class ReactionForm implements Serializable {
         this.description = description;
         this.basePopularity = basePopularity;
     }
+
+    public Description getDescription() {
+        return description;
+    }
+
+    public Popularity getBasePopularity() {
+        return basePopularity;
+    }
 }

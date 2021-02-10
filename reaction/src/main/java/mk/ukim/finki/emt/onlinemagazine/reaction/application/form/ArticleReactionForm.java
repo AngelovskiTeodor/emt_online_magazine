@@ -28,4 +28,16 @@ public class ArticleReactionForm implements Serializable {
 
     public ArticleReactionForm() {
     }
+
+    public ArticleId getArticleId() {
+        return articleId;
+    }
+
+    public Author getAuthor() {
+        return author;
+    }
+
+    public ReactionId getReactionId() {
+        return reactionId;
+    }
 }

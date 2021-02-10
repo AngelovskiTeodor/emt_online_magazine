@@ -33,5 +33,18 @@ public class Article extends AbstractEntity<ArticleId> {
     @Embedded
     private Popularity popularity;
 
+    protected Article() {
+    }
 
+    public Article(ArticleId id, Author author, PostingDate publishing_date, ArticleContent content, Popularity popularity) {
+        super(id);
+        this.author = author;
+        this.publishing_date = publishing_date;
+        this.content = content;
+        this.popularity = popularity;
+    }
+
+    public void setPopularity(Popularity popularity) {
+        this.popularity = popularity;
+    }
 }
